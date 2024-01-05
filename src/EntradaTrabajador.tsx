@@ -1,9 +1,8 @@
 import { useSelector } from "react-redux";
 import useFetchWorkers from "./hooks/useFetchTrabajadores";
 import { RootState } from "./redux/store";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { toast } from "react-toastify";
 
 const EntradaTrabajador = () => {
 
