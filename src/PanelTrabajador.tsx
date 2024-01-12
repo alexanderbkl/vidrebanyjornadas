@@ -21,10 +21,8 @@ const PanelTrabajador = () => {
 
     useEffect(() => {
 
-        if (!selectedTrabajador) {
-            if (code) {
-                dispatch(selectTrabajadorByCode(code));
-            }
+        if (code) {
+            dispatch(selectTrabajadorByCode(code));
         }
     }, [code, dispatch, selectedTrabajador, trabajadores])
 

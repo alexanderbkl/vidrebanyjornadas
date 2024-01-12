@@ -11,6 +11,7 @@ const EntradaTrabajador = () => {
     const [trabajadorCode, setTrabajadorCode] = useState<string>("");
     const navigate = useNavigate();
 
+    
     useFetchWorkers();
 
     return (
